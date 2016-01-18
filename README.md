@@ -12,7 +12,7 @@ Can detect a date interval in a document. well, most of the time.
 ```javascript
 import parseDateIntervals from "@datagica/parse-date-intervals";
 
-parseDateInterval(INPUT).then(result => {
+parseDateIntervals(INPUT).then(result => {
   if (result == null) {
     console.log("not found")
   } else {
