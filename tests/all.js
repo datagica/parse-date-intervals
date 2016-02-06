@@ -2,7 +2,7 @@ const chai = require('chai');
 chai.use(require('chai-fuzzy'));
 const expect = chai.expect;
 
-import parseDateIntervals from '../../lib/parse-date-intervals';
+const parseDateIntervals = require("../lib/parse-date-intervals");
 
 describe('@datagica/parse-date-intervals', () => {
 
